@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 600px;
+    height: 1100px;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+
+.nope-icon, .like-icon{
+    height: 40px;
+    width: 40px;
+}
+.nope-btn {
+    position: absolute;
+    right: 50%;
+    bottom: 15%
+}
+
+.like-btn{
+    position: absolute;
+    bottom: 15%;
+    right: 30%
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar img {
+    height: 2em;
+    padding: 3%;
+    margin: 2% 0
+}
+
+
+section img {
+    width: 100%;
+    
+}
+
+#logo {
+    background: linear-gradient(90deg, #DC1C13,#F07470, #EA4C46, #F07470, #DC1C13);
+    padding: 2% 6%;
+    border-radius: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer button {
+    margin: 5% 3%;
+    border-radius: 50%;
+    padding: 4%;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 3px #c4c4c4;
+}
+
+section {
+    position:relative;
+}
+
+.profile-info{
+    position: absolute;
+    bottom: 8%;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding-left: 8%;
+    text-shadow: 0 0 5px black;
+
+}
+
+.nope-btn:hover{
+    background: #FFE7EF;
+
+}
+
+.like-btn:hover{
+    background-color: #DBFFF4;
+}
+
+
+.banner {
+    width: 35%;
+    position: absolute;
+    top: 10%;
+}
+
+#like {
+    transform: rotate(-30deg);
+    left:10%
+}
+
+#nope {
+    left:55%;
+    transform: rotate(30deg);
+}
+
+.hidden {
+    display: none;
+}
+
+.starting-screen{
+    text-align: center;
+    background: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:800px
+
+}
+
+.profile-pic{
+    width: 90%;
+    height: auto;
+    padding: 5%;
+    border-radius: 15px;
+}

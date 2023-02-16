@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel = 'stylesheet' href ='./styles.css'>
+
+</head>
+<body>
+    <header>
+        <div class = 'nav-bar'>
+            <img class = 'profile' src="./images/Vector.png" alt="profile icon">
+            <img id = 'logo' src ="./images/paw-icon.png" alt = "paw icon">
+            <img class = 'messages' src = "./images/chat-icon.png" alt ="message icon">
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <img id = "like" class ="banner hidden" src = "./images/like-image.png">
+                <img id = "nope" class ="banner hidden" src = "./images/nope-image.png">
+            </div>
+            <div id = "main-text">
+                <div class="starting-screen">
+                    <h1>Select Like or Dislike to Start Swiping!</h1>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <button id= "nope-btn" class = "nope-btn"><img class = 'nope-icon' src = './images/nope-icon.png' alt = 'nope icon'></button>
+        <button id = "like-btn" class ="like-btn"><img class = 'like-icon' src ='./images/like-icon.png' alt = 'like icon'> </button>
+    </footer>
+
+
+
+    <script src="./data.js"></script>
+</body>
+</html>
